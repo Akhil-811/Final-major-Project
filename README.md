@@ -15,8 +15,10 @@ cd Final-major-Project
 pip install -r requirements.txt
 ```
 ### 3️⃣ Set Up Environment Variables
+```
 python -m venv env
 source env/bin/activate  # On Windows use `source env/Scripts/activate`
+```
 create an .env file and store your env keys their
 ```ini
 EMAIL_ADDRESS=YOUR_EMAIL_ADDRESS
