@@ -1,0 +1,73 @@
+{% extends 'calorie/base.html' %} 
+{% block content %}
+<div class="container" style="margin-top: 100px;">
+  <div class="row justify-content-center">
+    <!-- Meal Details Section -->
+    <div class="col-md-6">
+      <div class="card justify-content-center" style="width: 600px;">
+        <div class="card-body">
+          {% if messages %}
+            {% for message in messages %}
+            <div class="alert alert-{{message.tag}} alert-dismissible fade show" role="alert">
+                <strong>{{message}}</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            {% endfor %}
+          {% endif %}
+          <h5 class="card-title text-center">Meal Details</h5>
+          {% if data %}
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <strong>Calories:</strong> {{ data.calories }}
+            </li>
+            <li class="list-group-item">
+              <strong>Protein:</strong> {{ data.protein }} g
+            </li>
+            <li class="list-group-item">
+              <strong>Carbs:</strong> {{ data.carbs }} g
+            </li>
+            <li class="list-group-item">
+              <strong>Fats:</strong> {{ data.fats }} g
+            </li>
+            <li class="list-group-item">
+              <strong>Cholesterol:</strong> {{ data.cholestrol }} mg
+            </li>
+            <li class="list-group-item">
+              <strong>Iron:</strong> {{ data.iron }} mg
+            </li>
+            <li class="list-group-item">
+              <strong>Calcium:</strong> {{ data.calcium }} mg
+            </li>
+            <li class="list-group-item">
+              <strong>Sodium:</strong> {{ data.sodium }} mg
+            </li>
+            <li class="list-group-item">
+              <strong>Magnesium:</strong> {{ data.magnesium }} mg
+            </li>
+            <li class="list-group-item">
+              <strong>Phosphorus:</strong> {{ data.phosphorus }} mg
+            </li>
+            <li class="list-group-item">
+              <strong>Zinc:</strong> {{ data.zinc }} mg
+            </li>
+            <li class="list-group-item">
+              <strong>Vitamin B12:</strong> {{ data.vitaminb12 }} µg
+            </li>
+            <li class="list-group-item">
+              <strong>Folic Acid:</strong> {{ data.folic_acid }} µg
+            </li>
+          </ul>
+          {% else %}
+          <p class="text-muted">No meal details available.</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Buttons -->
+  <div class="d-flex justify-content-center mt-3">
+    <a href="{% url 'home' %}" class="btn btn-primary">Back to Dashboard</a>
+  </div>  
+</div>
+{% endblock %}
