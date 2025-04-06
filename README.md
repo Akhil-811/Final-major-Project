@@ -27,6 +27,13 @@ API_APP_KEY=YOUR_API_APP_KEY
 API_APP_ID=YOUR_APP_ID
 pdf_path=YOUR_PDF_PATH (To setup please refer: https://youtu.be/PFUsPlyMB00?si=QwHGRsmWYcpcRQ1m)
 ```
+## 🚀 Running the Application
+```bash
+python manage.py runserver
+```
+This will open a Django web application in your browser.
+
+---
 ## 🤝 Contributing
 - Fork the repository
 - Create a new branch (feature-branch)
