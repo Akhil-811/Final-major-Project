@@ -47,6 +47,6 @@ This will open a Django web application in your browser.
 
 |Eruva Akhil              | Dongari Vedasaray                | Degavath Ashish                        |Cheekati Shruthi |
 |-------------------------------------|-----------------------------------|-------------------------------------------|-------------------------------------------|
-| [GitHub](https://github.com/Akhil-811)  | [GitHub]() | [GitHub]() |[GitHub]() |
+| [GitHub](https://github.com/Akhil-811)  | [GitHub]() | [GitHub](https://github.com/dashish98) |[GitHub]() |
 | [Email](mailto:eruvaakku25@gmail.com)  | [Email](mailto:vedasaryud@gmail.com ) | [Email](mailto:ashishnayakdeghavath@gmail.com) |[Email](mailto:shruthicheekati@gmail.com) |
 | [LinkedIn](https://www.linkedin.com/in/eruva-akhil/) | [LinkedIn](https://www.linkedin.com/in/vedasarayu-dhongari-494416240/) | [LinkedIn](https://www.linkedin.com/in/degavath-ashish-05b664299/)|[LinkedIn](https://www.linkedin.com/in/cheekati-shruthi-069031233/)|
