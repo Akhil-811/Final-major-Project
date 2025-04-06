@@ -7,21 +7,23 @@ The FOOD AND NUTRITION TRACKER is a smart app that helps users log meals and ana
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/Neo4j-OpenAI-Query-Generator.git
-cd Neo4j-OpenAI-Query-Generator
+git clone [https://github.com/your-username/Final-major-Project.git]
+cd Final-major-Project
 ```
 ### 2️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 ### 3️⃣ Set Up Environment Variables
-Create a .env file and add your API keys:
-
+python -m venv env
+source env/bin/activate  # On Windows use `source env/Scripts/activate`
+create an .env file and store your env keys their
 ```ini
-OPENAI_API_KEY=your_openai_key
-NEO4J_URI=neo4j+s://your-database.databases.neo4j.io
-NEO4J_USER=neo4j
-NEO4J_PASSWORD=your_neo4j_password
+EMAIL_ADDRESS=YOUR_EMAIL_ADDRESS
+EMAIL_PASS=GOOGLE_APP_PASS
+API_APP_KEY=YOUR_API_APP_KEY
+API_APP_ID=YOUR_APP_ID
+pdf_path=YOUR_PDF_PATH (To setup please refer: https://youtu.be/PFUsPlyMB00?si=QwHGRsmWYcpcRQ1m)
 ```
 ## 🤝 Contributing
 - Fork the repository
